@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BossService/BossService.iml" filepath="$PROJECT_DIR$/BossService/BossService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KassaService/KassaService.iml" filepath="$PROJECT_DIR$/KassaService/KassaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagerService/ManagerService.iml" filepath="$PROJECT_DIR$/ManagerService/ManagerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OmborService/OmorService.iml" filepath="$PROJECT_DIR$/OmborService/OmorService.iml" />
+    </modules>
+  </component>
+</project>
