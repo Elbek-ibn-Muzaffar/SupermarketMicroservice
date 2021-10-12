@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: manager-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SupermarketMicroservice
+    username: juniper
+    password: 1122
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+
