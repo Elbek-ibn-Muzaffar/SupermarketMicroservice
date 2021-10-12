@@ -23,8 +23,6 @@ public class OmborEntity {
 
     private BigDecimal tannarx;
 
-
-
-
+   private double amount;
 
 }
