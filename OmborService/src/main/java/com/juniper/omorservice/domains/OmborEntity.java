@@ -2,10 +2,7 @@ package com.juniper.omorservice.domains;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.UUID;
 
@@ -23,6 +20,12 @@ public class OmborEntity {
 
     private BigDecimal tannarx;
 
-   private double amount;
+    private double amount;
+
+    @ManyToOne
+    private MeasurementEntity measurementEntity;
+
+    @ManyToOne
+    private KategoryEntity kategoryEntity;
 
 }
